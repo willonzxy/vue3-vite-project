@@ -12,3 +12,14 @@ export interface Todo {
   created_at: string
   user_id: string | null
 }
+
+export interface FruitInventory {
+  id: string
+  fruit_name: string
+  type: 'in' | 'out'
+  quantity: number
+  unit_price: number
+  total_amount: number
+  description: string
+  created_at: string
+}
