@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue"
-  import TodoList from "./components/TodoList.vue"
 </script>
 
 <template>
   <div>
-
-  <TodoList/>
+  <HelloWorld/>
   </div>
 </template>
